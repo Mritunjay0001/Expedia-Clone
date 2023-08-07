@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.headerTravellrs{
+    position: absolute;
+    top: 125px;
+    right: 0;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    width: 350px;
+    text-align: left;
+    padding: 1rem 1.5rem;
+    z-index: 2;
+}
+
+
+.headerTravellrsOption{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.headerTravellrsOption > div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.HeaderTravellersController{
+    display: flex;
+    gap: 15px;
+}
+
+.HeaderTravellersIncreaseNumber{
+    border: 1px solid #676c7e;
+    height: 1.875em;
+    width: 1.875em;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #676c7e;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.travelCounterNumber{
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.headerTravellrsBtnDone{
+    margin-top: 45px;
+    text-align: center;
+}
+
+
+.headerTravellrsBtnDone > button {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #3662d7;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+
+.headerTravellrs button:disabled{   
+    cursor: not-allowed ;
+}
+
+
+.staticd{
+    display: none;
+}
+
+
+@media all and (max-width:960px) {
+    .headerTravellrs{
+        top: 25px;
+    }
+}
+
+
